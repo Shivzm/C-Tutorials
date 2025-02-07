@@ -1,0 +1,12 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "cSpell.words": ["Aadhar", "Adress", "ylim"],
+  "json.schemas": [],
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "files.associations": {
+    "typeinfo": "c",
+    "DMA.C": "cpp",
+    "algorithm": "cpp"
+  }
+}
