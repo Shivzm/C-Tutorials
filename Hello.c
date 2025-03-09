@@ -6,6 +6,20 @@ void salting(char password[]);
 void slice(char str[], int n, int m);
 int countVowels(char str[]);
 void checkChar(char str[], char ch);
+void printTable(int n);
+
+int main() {
+    printTable(5);
+      return 0;
+
+}
+
+void printTable(int n) {
+    for(int i=1; i<=10; i++) {
+        printf("%d * %d = %d\n", n, i, n*i);
+    }
+}
+
 
 int main() {
    char str[] = "Palindrome";
@@ -63,17 +77,3 @@ void salting(char password[]) {
      strcat(newPass,salt);
      puts(newPass); 
 }
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
